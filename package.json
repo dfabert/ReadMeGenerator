@@ -1,0 +1,29 @@
+{
+  "name": "readmegenerator",
+  "version": "1.0.0",
+  "description": "Creating a readme generator for a user to easily create readme files to explain packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfabert/ReadMeGenerator.git"
+  },
+  "keywords": [
+    "readme",
+    "generator",
+    "homework",
+    "unit",
+    "9"
+  ],
+  "author": "Derick Fabert",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.5.0"
+  },
+  "bugs": {
+    "url": "https://github.com/dfabert/ReadMeGenerator/issues"
+  },
+  "homepage": "https://github.com/dfabert/ReadMeGenerator#readme"
+}
