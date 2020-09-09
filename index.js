@@ -25,6 +25,12 @@ inquirer.prompt(questions).then((response) => {
   # ${response.title}
 
   ## Table of Contents
+  * [Description of the Project](#Description-of-the-project)
+  * [Installation Guidelines](#Installation-Guidelines)
+  * [Usage Guidelines](#Usage-Guidelines)
+  * [Contributions](#Contributions)
+  * [License](#License)
+  * [Questions](#Questions)
 
   ## Description of the Project
   ${response.description}
@@ -37,6 +43,8 @@ inquirer.prompt(questions).then((response) => {
 
   ## Contributions
   ${response.contribution}
+
+  ## License
 
   ## Questions
   https://github.com/${response.gitUser}

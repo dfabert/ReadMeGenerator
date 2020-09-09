@@ -1,7 +1,13 @@
 
   # Title
 
-  ### Table of Contents
+  ## Table of Contents
+  * [Description of the Project](#Description-of-the-project)
+  * [Installation Guidelines](#Installation-Guidelines)
+  * [Usage Guidelines](#Usage-Guidelines)
+  * [Contributions](#Contributions)
+  * [License](#Lisense)
+  * [Questions](#Questions)
 
   ## Description of the Project
   No available description
@@ -14,6 +20,8 @@
 
   ## Contributions
   No contributions noted
+
+  ## License
 
   ## Questions
   https://github.com/dfabert
