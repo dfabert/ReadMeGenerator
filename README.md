@@ -14,21 +14,24 @@
   * [Questions](#Questions)
 
   ## Description of the Project
-  This application will ask the user 9 questions that will help quickly build a readme file for website applications. After asking the questions using the inquirer.prompt node module, it then creates the file. It will include a badge for the license, a table of contents with links to the other sections, and links to the github repo as well as the creator's e-mail.
+    This application will ask the user 9 questions that will help quickly build a readme file for website applications. After asking the questions using the inquirer.prompt node module, it then creates the file. It will include a badge for the license, a table of contents with links to the other sections, and links to the github repo as well as the creator's e-mail.
 
   ## Installation Guidelines
-  The user will need node to run this in terminal
+  User will need node.  Can run in terminal.
 
   ## Usage Guidelines
-  None noted.
+  Follow the prompts. 
 
   ## Contributions
-  Derick Fabert contributed to this project
+  Derick Fabert created this application
 
   ## License
   This application is covered by the following license:  
   The MIT License  
   [Click here for more information](https://opensource.org/licenses/MIT)
+
+  ## Tests
+  No test guidelines noted
 
   ## Questions
   Github Repository: https://github.com/dfabert  

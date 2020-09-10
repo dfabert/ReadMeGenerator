@@ -13,7 +13,7 @@ const questions = [
   {type: 'input', message:  'Enter the description of the project', name:  'description', default:  'No available description'},
   {type: 'input', message:  'Enter the installation instructions of the project', name:  'installation', default:  'No instalation guidelines noted'},
   {type: 'input', message:  'Enter the usage information for the project', name:  'usage', default:  'No usage guidelines noted'},
-  {type: 'input', message:  'Enter the test information for the project', name:  'usage', default:  'No test guidelines noted'},
+  {type: 'input', message:  'Enter the test information for the project', name:  'test', default:  'No test guidelines noted'},
   {type: 'input', message:  'Enter the contribution guidelines', name:  'contribution', default:  'No contributions noted'},
   {type: 'list', message:  'Select License', name:  'License', choices: licenseChoices},
   {type: 'input', message:  'Enter GitHub username', name:  'gitUser'},
@@ -53,6 +53,9 @@ inquirer.prompt(questions).then((response) => {
   This application is covered by the following license:  
   ${response.License.title}  
   [Click here for more information](${response.License.link})
+
+  ## Tests
+  ${response.test}
 
   ## Questions
   Github Repository: https://github.com/${response.gitUser}  
